@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+/* nav ber code start here */
+
 header{
     background-color: #2D236A;
     display: flex;
@@ -36,42 +39,8 @@ ul li a:hover{
     background-color: #8d1d1d93;
     border-radius: 5px;
 }
-/* section one code start here */
 
-.mastermaind{
-    background-image: linear-gradient(#00000054,#00000056), url('image/blog3.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.search-and-icon-parent{
-    display: flex;
-    justify-content: center;
-    padding: 200px 0;
-}
-.search-and-icon-parent input{
-    width: 400px;
-    height: 35px;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 0px 20px;
-}
-.search-and-icon-parent i{
-    font-size: 30px;
-    color: red;
-    background-color: green;
-    padding: 5px 25px;
-    margin: 0px 10px;
-    cursor: pointer;
-    border-radius: 15px;
-    transition: 0.5s;
-}
-.search-and-icon-parent i:hover{
-    background-color: #00000000;
-    background-color: #00a700;
-}
-/* section code start here */
+/* nav ber code finish here */
 .section-two-master-maind{
     background-color: #023364;
 }
@@ -169,62 +138,4 @@ ul li a:hover{
 }
 .section-two-end-div .section-two-ackor-div{
     background-color: #00a700dc;
-}
-
-/* footer part code start here */
-
-.footer-part{
-    background-color: 	#9400D3;
-}
-.footer-part-parent{
-    width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin: auto;
-    color: white;
-    padding: 50px 0;
-}
-.footer-one-single-div h3{
-    font-size: 30px;
-    margin: 10px 0;
-    text-transform: capitalize;
-    font-weight: bold;
-}
-.footer-one-single-div > p{
-    margin: 20px 0;
-    font-weight: bold;
-}
-.footer-one-single-div .footer-one-p{
-    margin-top: 70px;
-}
-.footer-second-div h3{
-    font-size: 30px;
-    margin: 10px 0;
-    font-weight: bold;
-}
-.footer-second-div p{
-    font-weight: bold;
-    margin-bottom: 8px;
-    cursor: pointer;
-}
-.tooter-third-div .footer-third-div-icon i{
-    font-size: 40px;
-    margin: 25px 0;
-    background-color: black;
-    padding: 8px 9px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-.tooter-third-div > p{
-    margin: 10px 0;
-    font-weight: bold;
-}
-.tooter-third-div h4{
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: bold;
-    margin-top: 50px;
-}
-.tooter-third-div span{
-    color: black;
 }
